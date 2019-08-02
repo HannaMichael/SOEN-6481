@@ -17,197 +17,179 @@
 \maketitle
 \tableofcontents
 \listoftables
+\chapter{Repository Details}
+The link for the repository is  \newline \url{https://github.com/HannaMichael/SOEN-6481}
+\chapter{Changes from D1 to D2}
+The Application of the plastic number has been changed to calculate the circumradius of Snub Icosidodecadodecahedron.
 \chapter{User Story}
 \section{User Story \# 1}
-\begin{tabular}{|p{3cm}|p{9cm}| }
+\begin{tabular}{|p{3.5cm}|p{9cm}| }
 \hline
-\multicolumn{2}{|c|}{US\#1 - Add two Numbers}\\
+\multicolumn{2}{|c|}{Basic Arithmetic Calculation}\\
 \hline
-\textbf {Story \#}& 1\\
+\textbf {Story ID}& US1\\
 \hline
-\textbf{Description}& As a user, I want to add two numbers, so that i can see the summation\\
-\hline
-\textbf{Acceptance Test}&And I know I am done when 2 + 3 = 5\\
-\hline
-\textbf{Estimated Points} & 1 Point\\
+\textbf{Description}& As a user, I want to perform basic arithmetic calculation such as Add, Subtract, Multiply and Divide, so that i can get the summation, Difference, product and quotient\\
 \hline
 \textbf{Priority} & High \\
 \hline
-\textbf{Constrains}& The display should print up to 11 digits number. \\
+\textbf{Estimated Points} & 2 Points\\
+\hline
+\textbf{Constraints}& User shall perform the calculation on two numbers only with one operation, User shall not be able to perform compound operations.\\
+\hline
+\textbf{Acceptance Criteria}&
+ -  User shall first select the desired operation [select a number from 1 to 4]\newline
+ -  User shall enter the first number\newline
+ -  User shall enter the second number\newline
+ -  User shall press the enter button to do the calculation\\
+\hline
+\textbf{Acceptance Test}&And I know I am done when I perform the following calculations: \newline  2 + 3 = 5 \newline  3 - 2 = 1 \newline 5 x 2 = 10 \newline 6 / 2 = 3\\
 \hline
 \end{tabular}
-\section{User Story \# 2}
 
-\begin{tabular}{|p{3cm}|p{9cm}| }
+\section{User Story \# 2}
+\begin{tabular}{|p{3.5cm}|p{9cm}| }
 \hline
-\multicolumn{2}{|c|}{US\#2 - Subtract two Numbers} \\
+\multicolumn{2}{|c|}{Save result in Memory} \\
 \hline
-\textbf {Story \#}& 2\\
+\textbf {Story ID}& US2\\
 \hline
-\textbf{Description}& As a user, I want to subtract two numbers, so that i can see the difference\\
+\textbf{Description}& As a user, I want to save the number in memory, so that i can recall it later.\\
 \hline
-\textbf{Acceptance Test}&And I know I am done when 3 - 2 = 1\\
+\textbf{Priority} & Medium \\
 \hline
-\textbf{Estimated Points} & 1 Point \\
+\textbf{Estimated Points} & 5 Points \\
 \hline
-\textbf{Priority} & High \\
+\textbf{Constraints}& One Result only can be saved in the memory.\\
 \hline
-\textbf{Constrains}& The display should print up to 11 digits number. \\
+\textbf{Acceptance Criteria}& 
+
+-   User shall first do any arithmetic calculation from user story ID ("US1") \newline
+-   User shall get a message either to save the number in memory or not.\newline
+-   If the user wants to save the number, then the user shall press "Y".\newline
+-   If the user does not want to save the number, then the user shall press "N".\\
+\hline
+\textbf{Acceptance Test}& And I know I am done when I press "Y" the result shall be stored in memory and then i can select number "7" from the main menu to get the saved number.\\
 \hline
 \end{tabular}
 
 \section{User Story \# 3}
-\begin{tabular}{|p{3cm}|p{9cm}| }
+\begin{tabular}{|p{3.5cm}|p{9cm}| }
 \hline
-\multicolumn{2}{|c|}{US\#3 - Multiply two Numbers} \\
+\multicolumn{2}{|c|}{Clear the wrong digit} \\
 \hline
-\textbf {Story \#}& 3\\
+\textbf {Story Id}& US3\\
 \hline
-\textbf{Description}& As a user, I want to multiply two numbers, so that i can see the product\\
+\textbf{Description}& As a user, I want to clear the wrong digit, so that i can update the number without entering the whole number again\\
 \hline
-\textbf{Acceptance Test}& And I know I am done when 5 x 2 = 10\\
+\textbf{Priority} & Low \\
 \hline
 \textbf{Estimated Points} & 1 Point \\
 \hline
-\textbf{Priority} & High \\
+\textbf{Constraints}& N/A.\\
 \hline
-\textbf{Constrains}& The display should print up to 11 digits number. \\
+\textbf{Acceptance Criteria}&
+
+-   User shall enter the first number.\newline
+-   User shall press "E" to edit the number that he has entered.\\
+\hline
+\textbf{Acceptance Test}& And I know I am done when the user enter 123455 and the user can change the number to 123456 by changing the last digit only.\\
 \hline
 \end{tabular}
 
 \section{User Story \# 4}
-\begin{tabular}{|p{3cm}|p{9cm}| }
+\begin{tabular}{|p{3.5cm}|p{9cm}| }
 \hline
-\multicolumn{2}{|c|}{US\#4 - Divide two Numbers} \\
+\multicolumn{2}{|c|}{Save operations even if i pressed clear by mistake} \\
 \hline
-\textbf {Story \#}& 4\\
+\textbf {Story Id}& US4\\
 \hline
-\textbf{Description}& As a user, I want to multiply two numbers, so that i can see the quotient\\
+\textbf{Description}& As a user, I want to save the equation in memory, so that i can recall it again even if I pressed clear by mistake.\\
 \hline
-\textbf{Acceptance Test}& And I know I am done when 6 / 2 = 3\\
+\textbf{Priority} & Low \\
 \hline
-\textbf{Estimated Points} & 1 Point \\
+\textbf{Estimated Points} & 5 Points\\
 \hline
-\textbf{Priority} & High \\
+\textbf{Constraints}& Huge usage of memory to store everything that has been entered into the calculator.\\
 \hline
-\textbf{Constrains}& The display should print up to 11 digits number. also, the second number shall not be zero.\\
+\textbf{Acceptance Criteria}& 
+-   User shall enter the equation.\newline
+-   User shall press clear to earse the equation.\newline
+-   User shall be able to recall the equation again by pressing recall button.\\
+\hline
+\textbf{Acceptance Test}& And I know I am done when I press equation recall button and the previous equation should be recalled from memory. \\
 \hline
 \end{tabular}
 
 \section{User Story \# 5}
-\begin{tabular}{|p{3cm}|p{9cm}| }
+\begin{tabular}{|p{3.5cm}|p{9cm}| }
 \hline
-\multicolumn{2}{|c|}{US\#5 - Clear the wrong digit} \\
+\multicolumn{2}{|c|}{Get Plastic number} \\
 \hline
-\textbf {Story \#}& 5\\
+\textbf {Story Id}& US5\\
 \hline
-\textbf{Description}& As a user, I want to clear the wrong digit, so that i can update the number without entering the whole number again\\
+\textbf{Description}& As a user, I want to get the plastic number, so that i can perform some operations.\\
 \hline
-\textbf{Acceptance Test}& And I know I am done when 123455 can be changed to 123456 by changing the last digit \\
+\textbf{Priority} & High \\
 \hline
-\textbf{Estimated Points} & 1 Point \\
+\textbf{Estimated Points} & 3 Points \\
 \hline
-\textbf{Priority} & Medium \\
+\textbf{Constraints}& The User shall not use the plastic number with the basic operations, the user can not use the plastic number as a first or second number in the basic operations.\\
 \hline
-\textbf{Constrains}& The display should print up to 11 digits number.\\
+\textbf{Acceptance Criteria}& 
+-   User shall press number "5".\newline
+-   User shall be able to see the plastic number.\\
+\hline
+\textbf{Acceptance Test}& And I know I am done when I press "5" Get plastic number and I get 1.324717957.\\
 \hline
 \end{tabular}
 
 \section{User Story \# 6}
-\begin{tabular}{|p{3cm}|p{9cm}| }
+\begin{tabular}{|p{3.5cm}|p{9cm}| }
 \hline
-\multicolumn{2}{|c|}{US\#6 - Save number in Memory} \\
+\multicolumn{2}{|c|}{Calculate circumradius of Snub Icosidodecadodecahedron\cite{pn}} \\
 \hline
-\textbf {Story \#}& 6\\
+\textbf {Story Id}& US6\\
 \hline
-\textbf{Description}& As a user, I want to save the number in memory, so that i can use it later.\\
+\textbf{Description}& As a user, I want to calculate circumradius of Snub Icosidodecadodecahedron.\\
 \hline
-\textbf{Acceptance Test}& And I know I am done when I press M  the number should be stored in memory and letter M should be shown in the bar. \\
+\textbf{Priority} & High\\
 \hline
-\textbf{Estimated Points} & 2 Points \\
+\textbf{Estimated Points} & 5 Points \\
 \hline
-\textbf{Priority} & Medium \\
+\textbf{Constraints}& The usage of this function is only valid for (Cartesian coordinate) a = 1.\\
 \hline
-\textbf{Constrains}& It is limited to the size of the actual memory.\\
+\textbf{Acceptance Criteria}& 
+-   User shall press number "6".\newline
+-   User shall be able to see the circumradius of Snub Icosidodecadodecahedron.\\
+\hline
+\textbf{Acceptance Test}& And I know I am done when I press number "6" and I get the result 1.12689 \\
 \hline
 \end{tabular}
 
 \section{User Story \# 7}
-\begin{tabular}{|p{3cm}|p{9cm}| }
+\begin{tabular}{|p{3.5cm}|p{9cm}| }
 \hline
-\multicolumn{2}{|c|}{US\#7 - Save operations even if i pressed clear by mistake} \\
+\multicolumn{2}{|c|}{Enter two numbers} \\
 \hline
-\textbf {Story \#}& 7\\
+\textbf {Story Id}& US7\\
 \hline
-\textbf{Description}& As a user, I want to save the equation in memory, so that i can recall it again even if I pressed clear by mistake.\\
-\hline
-\textbf{Acceptance Test}& And I know I am done when I press recall button the previous equation should be recalled from memory. \\
-\hline
-\textbf{Estimated Points} & 3 Points \\
+\textbf{Description}& As a user, I want to enter two numbers so that i can perform some operations on these numbers.\\
 \hline
 \textbf{Priority} & High \\
-\hline
-\textbf{Constrains}& Huge usage of memory to store everything that has been entered into the calculator.\\
-\hline
-\end{tabular}
-
-\section{User Story \# 8}
-\begin{tabular}{|p{3cm}|p{9cm}| }
-\hline
-\multicolumn{2}{|c|}{US\#8 - Get Plastic number} \\
-\hline
-\textbf {Story \#}& 8\\
-\hline
-\textbf{Description}& As a user, I want to get the plastic number, so that i can perform some operations.\\
-\hline
-\textbf{Acceptance Test}& And I know I am done when I press plastic number button, I get 1.324717957. \\
-\hline
-\textbf{Estimated Points} & 3 Points \\
-\hline
-\textbf{Priority} & High \\
-\hline
-\textbf{Constrains}& The display should print 11 digits number.\\
-\hline
-\end{tabular}
-
-\section{User Story \# 9}
-\begin{tabular}{|p{3cm}|p{9cm}| }
-\hline
-\multicolumn{2}{|c|}{US\#9 - Calculate circumradius of Snub Icosidodecadodecahedron} \\
-\hline
-\textbf {Story \#}& 9\\
-\hline
-\textbf{Description}& As a user, I want to calculate circumradius of Snub Icosidodecadodecahedron.\\
-\hline
-\textbf{Acceptance Test}& And I know I am done when I get the result 1.12689 \\
-\hline
-\textbf{Estimated Points} & 5 Points \\
-\hline
-\textbf{Priority} & Low \\
-\hline
-\textbf{Constrains}& The usage of this function is only valid for a = 1.\\
-\hline
-\end{tabular}
-
-\section{User Story \# 10}
-\begin{tabular}{|p{3cm}|p{9cm}| }
-\hline
-\multicolumn{2}{|c|}{US\#11 - Enter two numbers} \\
-\hline
-\textbf {Story \#}& 11\\
-\hline
-\textbf{Description}& As a user, I want to enter two numbers so that i can perform some operations.\\
-\hline
-\textbf{Acceptance Test}& And I know I am done when I pressed 123 i got 123 on the screen. \\
 \hline
 \textbf{Estimated Points} & 1 Point \\
 \hline
-\textbf{Priority} & High \\
+\textbf{Constraints}& The range of each number shall be between $3.40282347x10^{38} , 1.40239846 x 10^{-45}$.\\
 \hline
-\textbf{Constrains}& The display should print 11 digital numbers.\\
+\textbf{Acceptance Criteria}&
+-   User shall first select the desired operation [select a number from 1 to 4].\newline
+-   User shall enter the first number and see the first number on the screen.\newline
+-   User shall enter the second number and see the second number on the screen.\\
+\hline
+\textbf{Acceptance Test}& And I know I am done when I pressed 123 i got 123 on the screen then i pressed 456 and i got 456 on the screen.\\
 \hline
 \end{tabular}
-
 
 \chapter{Backward Traceability Matrix}
 
@@ -219,39 +201,42 @@
 \begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
 
 \hline
-& Interviewee& Internet & Life Experience & Project Description\\
+& Interview & Persona & Internet  & Project Description\\
 \hline
 
-US\#1&&&\checkmark&\\
+US1&\checkmark&\checkmark&&\\
 \hline
-US\#2 &&&\checkmark&\\
+US2 &\checkmark&\checkmark&&\\
 \hline
-US\#3&&&\checkmark&\\
+US3&\checkmark&\checkmark&&\\
 \hline
-
-US\#4&&&\checkmark&\\
+US4&\checkmark&\checkmark&&\\
 \hline
-
-US\#5&&&\checkmark&\\
+US5&&&&\checkmark\\
 \hline
-
-US\#6&&&\checkmark&\\
+US6&&&\checkmark&\\
 \hline
-
-US\#7&\checkmark&&&\\
-\hline
-
-US\#8&&&&\checkmark\\
-\hline
-
-US\#9&&\checkmark&&\\
-\hline
-
-US\#10&&&\checkmark&\\
+US7&\checkmark&\checkmark&&\\
 \hline
 
 \end{tabular}
 \caption{Backward Traceability Matrix}
-
 \end{table*}
+\newline\noindent The source of US1, US2, US3, US4 \& US7 is P.Tran Tuan.\\
+\newline The source of US6 is \newline \url{http://mathworld.wolfram.com/SnubIcosidodecadodecahedron.html}
+\newline
+\chapter{Implementation}
+The User stories that has been implemented are as follow:
+\begin{itemize}
+    \item US1 - Basic Arithmetic Calculation
+    \item US2 - Save result in Memory
+    \item US5 - Get Plastic Number
+    \item US6 - Calculate circumradius of Snub Icosidodecadodecahedron
+    \item US7 - Enter two numbers\newline
+\end{itemize}
+\newline Memento Design Pattern has been used\footnote{\url{https://www.tutorialspoint.com/design_pattern/memento_pattern}}.\newline
+\newline Junit has been used for unit testing.
+\bibliographystyle{plain}
+\bibliography{references}
+
 \end{document}
